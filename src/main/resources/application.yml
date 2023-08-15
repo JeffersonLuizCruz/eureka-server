@@ -1,6 +1,7 @@
 spring:
   application:
     name: eurekaserver
+  profiles:    active:    - local  
   security:
    basic:
     enabled: true
